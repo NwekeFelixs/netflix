@@ -181,7 +181,7 @@ body {
 .heading {
   color: var(--white);
   font-size: var(--fs-heading);
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .title,
@@ -535,11 +535,13 @@ body {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  padding: 10px 0;
 }
 
 .banner .heading {
   -webkit-line-clamp: 3;
   margin-block-end: 16px;
+  font-size: 24px;
 }
 
 .meta-list {
